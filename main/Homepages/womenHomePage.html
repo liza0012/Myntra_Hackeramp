@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women - Shop For Women Clothes, Shoes, Bags & More</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="../Common Files/style.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container01 {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .insta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .insta-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .insta-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .insta-item .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.5);
+            color: #fff;
+            padding: 8px;
+            font-size: 12px;
+            text-align: center;
+        }
+		/* Media Queries */
+        @media (max-width: 600px) {
+            .insta-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 5px;
+            }
+            .insta-item .overlay {
+                padding: 6px;
+                font-size: 10px;
+            }
+        }
+		img {
+			max-width: 100%;
+			height: auto;
+			width: 200px;
+			justify-content: center;
+		}
+		.container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: #f5f5f5;
+        }
+		.img-container {
+			background-color: #f5f5f5;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <!-- MENU BAR -->
+    <header>
+        <div id="logo">
+            <img src="../Common Files/image/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
+        </div>
+        <ul id="nav_bar">
+            <li><a href="../Homepages/menHomePage.html">men</a></li>
+            <li><a href="../Homepages/womenHomePage.html">women</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="../Homepages/homeLiving.html">home & living</a></li>
+            <li><a href="#">beauty</a></li>
+            <li id="studio"><a href="#">studio</a><span>new</span></li>
+        </ul> 
+        <div id="search">
+            <input type="text" id="search_bar" placeholder="Search for products, brands and more">
+            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+        </div>
+        <div id="right_icon">
+            <div id="reggDropdown">
+                <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+              <div id="drop">
+                  <a href="../Profile/profile.html" class="dropList">login</a>
+                  <a href="../Profile/signup.html" class="dropList">sign up</a>
+              </div>
+
+              <i class="fa-regular fa-user"></i>
+              <span>profile</span>
+          </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>bag</span>
+            </div>
+        </div>
+
+                <!-- TOGGLE MENU -->
+                <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="menHomePage.html">men</a>
+                            <a href="womenHomePage.html">women</a>
+                            <a href="#">kids</a>
+                            <a href="homeLiving.html">home & living</a>
+                            <a href="#">beauty</a>
+                            <a href="#">studio</a>
+                        </div> 
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>           
+                    </div>
+                </div>
+
+    </header>
+
+
+    <!-- COROUSEL SECTION -->
+    <div class="slider">
+        <div id="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+
+          <!--slide images start-->
+         <!-- slider images created using js-->
+        </div>
+
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <!--SECTION-1 section blogs -->
+      <section class="blog">
+        <div class="container01">
+            <div class="container2">
+                <div class="img-container">
+                    <img src="../Common Files/image/ig.png" alt="img">
+                </div>
+            </div>
+            
+            <h1>See your Fashion Influencers choice</h1>
+            
+            <div id="instafeed-container" class="insta-grid"></div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                target: "instafeed-container",
+                resolution: 'standard_resolution',
+                accessToken: 'IGQWRNOUlIM2dPVHh2MzhjNjluWEhOQXZA5cmpPOEY4Sk0wNlBORTZAZAeGhCMVBXRGR0SjVCQmhvUmdJVFhRUGJBLVdRMnJ1YmdxTmNEcnd0WHYxXzRkTE53MjZAYRUwzQVBuRkJJcjlHSElseURFblJRTk9tQjRKd1kZD', // Replace with your actual access token
+                template: '<div class="insta-item"><a href="{{link}}" target="_blank"><img src="{{image}}" /></a><div class="overlay">{{likes}} likes / {{comments}} comments</div></div>'
+            });
+            userFeed.run();
+        </script>
+      </section>
+
+
+
+
+
+      <!-- TOP BRANDS DISPLAY 1 HEADING -->
+      <h1 class="brand_heading">biggest deals on top brands</h1>
+      <div id="topBrand_women" class="container">
+          <div><img src="https://bit.ly/3NrgMVT" alt="brand6"></div>
+          <div class="forWeb"><img src="https://bit.ly/3IJeKg4" alt="brand7"></div>
+          <div class="forWeb"><img src="https://bit.ly/3DlD3zC" alt="brand8"></div>
+          <div class="forWeb"><img src="https://bit.ly/36Ymhu7" alt="brand9"></div>
+          <div class="forWeb"><img src="https://bit.ly/3IN5iZ5" alt="brand10"></div>
+      </div>
+
+       <!-- TOP CATEGORIES SECTION -->
+       <h1 class="brand_heading">categories to bag</h1>
+       <div id="categoryBag_women" class="container categoryBag_women"></div>
+
+
+       <!-- TOP BRAND DISPLAY 2 HEADING -->
+       <h1 class="brand_heading">explore top brands</h1>
+       <div id="explore_more_women" class="display container explore_more_women"></div>
+
+        
+
+          <!-- FOOTER SECTION -->
+          <footer>
+              <section id="section_1">
+                  <div id="left">
+                      <div>
+                          <h4>online shopping</h4>
+                          <p>men</p>
+                          <p>women</p>
+                          <p>home & living</p>
+                          <p>beauty</p>
+                          <p>gift cards</p>
+                          <p>myntra insider<span id="latest">New</span></p>
+                      </div>
+                      <div>
+                        <h4>useful links</h4>
+                        <p>men</p>
+                        <p>faq</p>
+                        <p>t&c</p>
+                        <p>terms of use</p>
+                        <p>track order</p>
+                        <p>shipping</p>
+                        <p>cancellation</p>
+                        <p>returns</p>
+                        <p>whitehat</p>
+                        <p>blog</p>
+                        <p>careers</p>
+                        <p>privacy policy</p>
+                        <p>site map</p>
+                        <p>corporate information</p>
+                      </div>
+                      <div>
+                          <h4>experience myntra app on mobile</h4>
+                          <img src="https://bit.ly/3LluZ4L" alt="android">
+                          <img src="https://bit.ly/3DmWQys" alt="ios">
+                          <h4 id="social_connect">keep in touch</h4>
+                          <div>
+                            <i class="fa-brands fa-facebook-square"></i>
+                            <i class="fa-brands fa-twitter-square"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="right">
+                      <div>
+                          <img src="https://bit.ly/3JPiL47" alt="original">
+                          <p> <span>100% ORIGINAL</span> guarantee for all products at myntra.com</p>
+                      </div>
+                      <div>
+                          <img src="https://bit.ly/3uBalH4" alt="return_policy">
+                          <p><span>Return within 30days</span> of receiving your order</p>
+                      </div>
+                  </div>
+              </section>
+             
+              <section id="section_4">
+                  <p>In case of any concern <a href="#"> contact us</a></p>
+                  <p>&#169; 2022 www.myntra.com. All rights reserved.</p>
+              </section>
+              <hr>
+             
+          </footer>
+
+
+    <script src="../Common Files/women.js"></script>
+    <script src="../Common Files/headerMenu.js"></script>
+    <script src="../Common Files/corousel.js"></script>
+    <script src="../Common Files/hyperlinks.js"></script>
+    
+
+</body>
+
+
+</html>

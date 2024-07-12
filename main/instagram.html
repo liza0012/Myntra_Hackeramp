@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instafeed on Your Website</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .insta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .insta-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .insta-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .insta-item .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.5);
+            color: #fff;
+            padding: 8px;
+            font-size: 12px;
+            text-align: center;
+        }
+		/* Media Queries */
+        @media (max-width: 600px) {
+            .insta-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 5px;
+            }
+            .insta-item .overlay {
+                padding: 6px;
+                font-size: 10px;
+            }
+        }
+		img {
+			max-width: 100%;
+			height: auto;
+			width: 200px;
+			justify-content: center;
+		}
+		.container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: #f5f5f5;
+        }
+		.img-container {
+			background-color: #f5f5f5;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+		<div class="container2">
+			<div class="img-container">
+				<img src="ig.png" alt="img">
+			</div>
+		</div>
+		
+        <h1>Influencers choice</h1>
+        <div id="instafeed-container" class="insta-grid"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            target: "instafeed-container",
+            resolution: 'standard_resolution',
+            accessToken: 'IGQWRNOUlIM2dPVHh2MzhjNjluWEhOQXZA5cmpPOEY4Sk0wNlBORTZAZAeGhCMVBXRGR0SjVCQmhvUmdJVFhRUGJBLVdRMnJ1YmdxTmNEcnd0WHYxXzRkTE53MjZAYRUwzQVBuRkJJcjlHSElseURFblJRTk9tQjRKd1kZD', // Replace with your actual access token
+            template: '<div class="insta-item"><a href="{{link}}" target="_blank"><img src="{{image}}" /></a><div class="overlay">{{likes}} likes / {{comments}} comments</div></div>'
+        });
+        userFeed.run();
+    </script>
+</body>
+</html>

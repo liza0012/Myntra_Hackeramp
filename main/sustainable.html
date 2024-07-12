@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .product-info {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+
+        .sustainability-bar {
+            height: 30px;
+            border-radius: 5px;
+            transition: width 1s;
+        }
+
+        .green {
+            background: green;
+        }
+
+        .yellow {
+            background: yellow;
+        }
+
+        .red {
+            background: red;
+        }
+
+        .score {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-info">
+        <h1>Product Materials</h1>
+        <input type="text" id="materials" placeholder="Enter materials (comma separated)">
+        <button id="check-sustainability">Check Sustainability</button>
+        
+        <div id="result" class="result">
+            <div id="sustainability-score" class="score"></div>
+            <div id="sustainability-bar" class="sustainability-bar"></div>
+        </div>
+    </div>
+    
+    <script>
+        const sustainabilityData = {
+            cotton: 100,
+            jute: 90,
+            polyester: 20,
+            polychiffon: 0,
+            linen: 85,
+            wool: 50,
+            nylon:0,
+            // Add more materials as needed
+        };
+
+        document.getElementById('check-sustainability').addEventListener('click', () => {
+            const materialsInput = document.getElementById('materials').value;
+            const materials = materialsInput.split(',').map(m => m.trim().toLowerCase());
+            let totalScore = 0;
+            let sustainableCount = 0;
+
+            materials.forEach(material => {
+                const score = sustainabilityData[material];
+                if (score) {
+                    totalScore += score;
+                    sustainableCount++;
+                }
+            });
+
+            const averageScore = sustainableCount > 0 ? totalScore / sustainableCount : 0;
+            displaySustainability(averageScore);
+        });
+
+        function displaySustainability(score) {
+            const scoreElement = document.getElementById('sustainability-score');
+            const barElement = document.getElementById('sustainability-bar');
+            
+            scoreElement.innerText = `Sustainability Score: ${score.toFixed(2)}%`;
+
+            let colorClass = '';
+            if (score >= 70) {
+                colorClass = 'green';
+            } else if (score >= 40) {
+                colorClass = 'yellow';
+            } else {
+                colorClass = 'red';
+            }
+
+            barElement.className = `sustainability-bar ${colorClass}`;
+            barElement.style.width = `${score}%`;
+        }
+    </script>
+</body>
+</html>
