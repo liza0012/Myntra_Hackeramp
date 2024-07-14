@@ -8,6 +8,7 @@ var womensData = [{
     offer: "(76% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3uLGTyi",
@@ -19,6 +20,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page2.html"
 },
 {
     image_url: "https://bit.ly/3Dldqit",
@@ -28,8 +30,9 @@ var womensData = [{
     price: "Rs. 749",
     strikedoffprice: "Rs. 1299",
     offer: "(65% OFF)",
-    wishList: "WISHLIST  ♡",
+    wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3iNMWwx",
@@ -41,6 +44,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3IQuE8v",
@@ -52,6 +56,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3IRLbJa",
@@ -63,6 +68,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wYoUqM",
@@ -74,6 +80,7 @@ var womensData = [{
     offer: "(63% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wXtNAx",
@@ -85,6 +92,7 @@ var womensData = [{
     offer: "(60% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/37aGnRW",
@@ -96,6 +104,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wUyQli",
@@ -107,6 +116,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3uMmnxi",
@@ -118,6 +128,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3IZknGX",
@@ -129,6 +140,7 @@ var womensData = [{
     offer: "(43% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/35xpQr3",
@@ -140,6 +152,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3iUMb4X",
@@ -151,6 +164,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/36I0Myd",
@@ -162,6 +176,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3DwTnO0",
@@ -173,6 +188,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3v7U4K7",
@@ -184,6 +200,7 @@ var womensData = [{
     offer: "(Rs. 60001 OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3iXV6Cw",
@@ -195,6 +212,7 @@ var womensData = [{
     offer: "(25% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3DvsXfI",
@@ -206,6 +224,7 @@ var womensData = [{
     offer: "(25% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wYy1Im",
@@ -217,6 +236,7 @@ var womensData = [{
     offer: "(71% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/35wbrLE",
@@ -228,6 +248,7 @@ var womensData = [{
     offer: "(20% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3DvtdeG",
@@ -239,6 +260,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wVpBRV",
@@ -250,6 +272,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wUhtRH",
@@ -261,6 +284,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3Dv4h6W",
@@ -272,6 +296,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3NGRzXv",
@@ -283,6 +308,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3DBhHP0",
@@ -294,6 +320,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/35vC57k",
@@ -305,6 +332,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3uGJsBy",
@@ -316,6 +344,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3v7Vmor",
@@ -327,6 +356,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wWha8K",
@@ -338,6 +368,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/37bUbfj",
@@ -349,6 +380,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3iX4lTz",
@@ -360,6 +392,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3wXwlP7",
@@ -371,6 +404,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://bit.ly/3NEADRn",
@@ -382,6 +416,7 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11715910/2020/12/9/9442c1af-94fd-4c60-b9c8-044ed39535ec1607497230477-Rubans-Women-Silver-Plated-Oxidised-Elasticated-Bracelet-485-1.jpg",
@@ -393,8 +428,10 @@ var womensData = [{
     offer: "(65% OFF)",
     wishList: "WISHLIST ♡",
     addToBag: "ADD TO BAG",
+    productLink: "/Myntra_Hackeramp/page.html"
 },
 ];
+
 
 var wishList = JSON.parse(localStorage.getItem("wishListObj")) || [];
 
@@ -414,7 +451,6 @@ window.addEventListener('load', function(){
             if(a.brand < b.brand) return -1
             return 0;
         })
-        
         displayPage(womensData); 
       }
       else{
@@ -468,6 +504,9 @@ womensData.map(function(element) {
     
     var img = document.createElement("img");
     img.src = element.image_url;
+    img.addEventListener('click', () => {
+        window.location.href = element.productLink;
+    });
     
     var contentBox = document.createElement("div");
     contentBox.setAttribute("class", "contentBox");
