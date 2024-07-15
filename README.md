@@ -1,4 +1,4 @@
-
+NOTE : The Virtual tryon part is uploaded here because of its large file size( > Github Limit) : https://drive.google.com/drive/folders/1VY59EkVLuFxoW00GNC5eubsRJqidiAnc?usp=sharing
 # Myntra Hackeramp
 
 Welcome to the Myntra Hackeramp project repository! This project is a part of the Myntra Hackeramp hackathon and showcases our innovative solution to the given problem statement.
