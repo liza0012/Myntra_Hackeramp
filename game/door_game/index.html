@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Door game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Win a price</h1>
+        <br>
+        <div id="game">
+            <div class="door" id="door1" onclick="chooseDoor(1)">Door 1</div>
+            <div class="door" id="door2" onclick="chooseDoor(2)">Door 2</div>
+            <div class="door" id="door3" onclick="chooseDoor(3)">Door 3</div>
+        </div>
+        <div id="message">Choose a door!</div>
+        <div id="totalPrize">Total Prize: 0</div>
+        <div id="endMessage"></div> <!-- New div for end message -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
