@@ -1,8 +1,3 @@
-# Myntra_Hackeramp
-
-Here's the updated README file with the additional information about Unity 3D and Vuforia Engine:
-
----
 
 # Myntra Hackeramp
 
